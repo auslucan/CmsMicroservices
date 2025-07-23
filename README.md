@@ -80,10 +80,6 @@ Polly (retry & circuit breaker)
 Swagger (API dokümantasyonu)
 xUnit & Moq (birim testler)
 
-📌 Özet
-Bu proje sayesinde mikroservis mimarisiyle servislerin birbiriyle güvenli ve izlenebilir şekilde iletişim kurabildiği, 
-hatalara dayanıklı, modern bir içerik yönetim sistemi geliştirilmiş oldu. Swagger ile API’leri test edebilir, 
-Jaeger üzerinden servislerin davranışlarını uçtan uca izleyebilirsiniz. Docker Compose sayesinde tüm sistemi tek komutla kolayca ayağa kaldırabilirsiniz.
 
 
 
