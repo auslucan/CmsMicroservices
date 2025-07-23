@@ -1,12 +1,12 @@
 # Proje Amacı
-Bu projede, kurumların dijital içeriklerini (örneğin haberler, duyurular, belgeler) merkezi bir sistem üzerinden yönetebilmesi için mikroservis mimarisine dayalı bir yapı geliştirildi. İki ana servis yer alıyor: ContentService (içerik yönetimi) ve UserService (kullanıcı yönetimi). Amaç, servislerin birbiriyle entegre şekilde çalışabildiği, izlenebilir, dayanıklı ve yönetilebilir bir sistem sunmaktı.
+Bu projede  İki ana servis yer alıyor: ContentService (içerik yönetimi) ve UserService (kullanıcı yönetimi). Amaç, servislerin birbiriyle entegre şekilde çalışabildiği, izlenebilir, dayanıklı ve yönetilebilir bir sistem sunmaktır.
 
 ---
 
 ## 🔧 Servisler ve Görevleri
 
 ### 🧑‍💼 UserService
-- Kullanıcı kayıt, giriş ve doğrulama işlemlerini gerçekleştirir.
+- Kullanıcı kayıt, güncelleme, silme   işlemlerini gerçekleştirir.
 - PostgreSQL veri tabanı kullanır.
 - Servis keşfi için Consul entegredir.
 - İzlenebilirlik için Jaeger ile desteklenmiştir.
